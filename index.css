@@ -3,6 +3,13 @@ body {
   padding: 1rem;
   background-color: #fef6e4;
 }
+h1 {
+  font-family: "DM Serif display";
+  font-size: 70px;
+  font-weight: 700;
+  color: #001858;
+  margin: 0;
+}
 li {
   list-style: none;
 }
