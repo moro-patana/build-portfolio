@@ -146,7 +146,7 @@ li {
       margin: 0 auto;
     }
   .menu {
-    padding: 0;
+    padding-right: 6rem;
     background-color: transparent;
     top: 0;
     left: auto;
@@ -161,7 +161,7 @@ li {
   /* Switch from column to row flex */
   .menu ul {
     flex-direction: row;
-    margin-right: 6rem;
+    padding: 1rem;
   }
   .menu__link {
     color: black;
