@@ -1,12 +1,16 @@
 body {
   margin: 0;
   padding: 1rem;
+  background-color: #fef6e4;
+}
+li {
+  list-style: none;
 }
 .menu {
     padding: 1rem;
     border-radius: 10px;
     margin: 1rem;
-    background-color: black;
+    background-color: #8bd3dd;
     position: absolute;
     z-index: 3;
     top: 0;
@@ -107,9 +111,33 @@ body {
     background-size: contain;
     padding-bottom: 500px;
     text-align: center;
-    background-position: top 160px left 50%;
+    background-position: top 210px left 50%;
   }
+  p {
+    color: #172c66;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    background-color: #8bd3dd;
+    border: none;
+    padding: 1rem;
+    border-radius: 15px;
+    color: #001858;
+  }
+  footer {
+    text-align: center;
+  }
+
   @media (min-width: 1114px) {
+    body > header,
+    main,
+    footer,
+    hr {
+      max-width: 1114px;
+      margin: 0 auto;
+    }
   .menu {
     padding: 0;
     background-color: transparent;
@@ -128,14 +156,30 @@ body {
     flex-direction: row;
     margin-right: 6rem;
   }
+  .menu__link {
+    color: black;
+  }
   .menu li:nth-of-type(1),
   .menu li:nth-of-type(3) {
     padding: 1rem;
   
   }
   
-  .icon_menu {
+.icon_menu {
     display: none;
+    opacity: 0;
+  }
+  .masthead {
+    text-align: left;
+    padding-right: 50%;
+    background-position: top 10% right 0;
+    background-size: 50%;
+  }
+  .masthead p {
+    margin: 0;
+    width: 500px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   }
   
