@@ -5,10 +5,15 @@ body {
 }
 h1 {
   font-family: "DM Serif display";
-  font-size: 70px;
+  font-size: 40px;
   font-weight: 700;
   color: #001858;
   margin: 0;
+}
+h2 {
+  font-family: "Elephant";
+  font-size: 28px;
+  font-weight: 700;
 }
 li {
   list-style: none;
@@ -122,6 +127,8 @@ li {
   }
   p {
     color: #172c66;
+    font-family: "Gabriola";
+    font-size: 18px;
   }
   a {
     text-decoration: none;
@@ -144,6 +151,18 @@ li {
     hr {
       max-width: 1114px;
       margin: 0 auto;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    main {
+      padding-top: 10%;
+    }
+    h2 {
+      font-size: 36px;
+    }
+    p {
+      font-size: 32px;
     }
   .menu {
     padding-right: 6rem;
