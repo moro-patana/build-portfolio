@@ -122,14 +122,14 @@ li {
     background-image: url("./img/computing.JPG");
     background-repeat: no-repeat;
     background-size: contain;
-    padding-bottom: 500px;
+    padding-bottom: 400px;
     text-align: center;
-    background-position: top 210px left 50%;
+    background-position: top 310px left 50%;
   }
   p {
     color: #172c66;
     font-family: "Gabriola";
-    font-size: 18px;
+    font-size: 22px;
   }
   a {
     text-decoration: none;
